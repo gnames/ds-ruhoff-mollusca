@@ -4,23 +4,22 @@
 # Concatenate lines in 02-index.txt
 
 def continuation?(line)
-  return true if line.size < 30
-  return false if line =~ /^[a-z]{4,},\s/
+  return true if line.size < 20
+  return false if line =~ /^[a-z-]{4,},\s/
   return false if line =~ /^\d{1,2}-[a-z]{4,},\s/
-  return true if line =~ /^\d+[^-]/
-  return true if line =~ /(plate|figure)/
-  return true if line =~ /\d:/
+  return false if line =~ /^(aci|ada|aha|ala|arx|boa|coa|cor|dux|eoa),/
+  return false if line =~ /^(eos|eta|eva|gea|ino|ios|jos|mus|noe|nux),/
+  return false if line =~ /^(pan|pia|ros|sol|tau|vau|yod),/
 
-  false
+  true
 end
 
 f = File.open('data/02-index.txt')
 prev_line = ''
-cont_line = ''
 
 f.each do |l|
   unless continuation?(l)
-    puts "FL: #{prev_line}" if prev_line != ''
+    puts prev_line.strip if prev_line != ''
 
     prev_line = l
     next
@@ -29,4 +28,4 @@ f.each do |l|
   prev_line = "#{prev_line} #{l}"
   prev_line = prev_line.gsub(/\s{2,}/, ' ')
 end
-puts "E: #{prev_line}"
+puts prev_line.strip
