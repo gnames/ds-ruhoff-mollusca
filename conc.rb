@@ -5,12 +5,11 @@
 
 def continuation?(line)
   return true if line.size < 30
-  return false if line =~ /^[a-z]{4,}[\.,]\s/
-  return false if line =~ /^[\d]{1,2}-[a-z]{4,},\s/
-  return true if line =~ /^[\d]+[^-]/
+  return false if line =~ /^[a-z]{4,},\s/
+  return false if line =~ /^\d{1,2}-[a-z]{4,},\s/
+  return true if line =~ /^\d+[^-]/
   return true if line =~ /(plate|figure)/
-  return true if line =~ /[\d]:/
-
+  return true if line =~ /\d:/
 
   false
 end
@@ -21,9 +20,7 @@ cont_line = ''
 
 f.each do |l|
   unless continuation?(l)
-    if prev_line != ''
-      puts "FL: #{prev_line}"
-    end
+    puts "FL: #{prev_line}" if prev_line != ''
 
     prev_line = l
     next

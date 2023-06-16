@@ -3422,7 +3422,7 @@ artum, Cardium Schafhautl, 1863:166, plate 37: figure 5
 aruana, Helicina Pfeiffer, 1859c:29
 arula, Pupina Benson, 1856c, 17:230; Pfeiffer, 1860 [in 1854-
 1869], 2:141, plate 37: figures 7-9
-arx. Helix Benson, 1859c, 3:184
+arx, Helix Benson, 1859c, 3:184
 arzierense, Cerithium Loriol, 1868, 4:11, plate 1: figures 4, 5
 arzierensis, Lima Loriol, 1868,4:43, plate 3: figures 9, 10; Pictet and
 Campiche, 1869 [in 1861-1871], 5:135, plate 163: figures 1-4
@@ -16276,7 +16276,7 @@ ensiformis, Tellina G. Sowerby, 1868 [in 1865-1870], 16(Tellina):
 plate 49: species 289
 enterogramma, Neptunea Gabb, 1860h, 4:378, plate 67: figure 14
 entodonta, Helix Pfeiffer, 1859c:24, plate 43: figure 2
-eoa. Helix Crosse, 1868k, 16:278
+eoa, Helix Crosse, 1868k, 16:278
 eocaenica, Gervillia Deshayes, 1858 [in 1856-1865], atlas 1: plate 77:
 figures 15-17; 1861 [in 1856-1865], 2:55
 eocaenicum, Plagiostoma Bay an, 1870, 27:461, 484
@@ -16284,7 +16284,7 @@ eocenensis, Chiton Conrad, 1855c, 7:266; 1865f, 1:212, plate 20:
 figure 6
 eocenicus, Tiphys Schauroth, 1865:234, plate 23: figure 8
 eolus, Buccinum Orbigny, 1852 [in 1850-1852], 3:86
-eos. Ostrea Coquand, 1869:166, plate 74: figures 6-13
+eos, Ostrea Coquand, 1869:166, plate 74: figures 6-13
 epaphus, Turbo Laube, 1870 Jin 1866-1870], 3O(2):25, plate 34:
 figure 7
 eparcyensis, Chemnitzia Piette, 1855a, 12:1092
@@ -16516,7 +16516,7 @@ figure 15; 1857b, 7:191, plate 3: figures 3, 4
 estrellanus, Glycimeris Conrad, 1857b, 7:194, plate 7: figure 5
 esuriens, Bittium P. Carpenter, 1864c:655; 1865g, 15:181
 esuriens, Bittium P. Carpenter, 1865i, 13:142
-eta. Helix Pfeiffer, 1852k:57
+eta, Helix Pfeiffer, 1852k:57
 etalense, Cerithium Piette, 1856a, 13:203, plate 10: figure 5; Terquem
 and Piette, 1865, 8:64, plate 6: figures 3, 4
 etalense, Dentalium Terquem and Piette, 1865, 8:67, plate 2: figure
@@ -16749,7 +16749,7 @@ eutrochus, Trochus Laube, 1866b, 54(1):84; 1868a, 28(2): 10, plate 2:
 figure 5
 eutropis, Helix Shuttleworth, in PfeifTer, 1861c, 7:237
 euzieriana, Clausilia Bourguignat, 1870a, 1:51
-eva. Helix PfeifTer, 18521:84; 1853 [in 1853-1854], l(12,):490, plate
+eva, Helix PfeifTer, 18521:84; 1853 [in 1853-1854], l(12,):490, plate
 160: figures 22, 23; Reeve, 1853 [in 1851-1870], 7(Helix): plate
 150: species 977
 evandaleana, Helix PfeifTer, 1863c:528; Cox, 1868:51, plate 9: figure
@@ -32500,8 +32500,8 @@ nodulosus, Conus Deshayes, 1865 [in 1856-1865], 3:416, plate 100:
 figures 24-26
 nodulosus, Conus G. Sowerby, I864b:[2, figure 9 a]
 nodulosus, Paludomus Dohrn, 1857:125
-noe. Oliva Orbigny, 1852 [in 1850-1852], 3:9
-noe. Trochus Orbigny, 1852 [in 1850-1852], 3:7
+noe, Oliva Orbigny, 1852 [in 1850-1852], 3:9
+noe, Trochus Orbigny, 1852 [in 1850-1852], 3:7
 noeggerathi, Cardium J. Muller. 1851, 2:65
 noeggerathi, Fususi. Muller, 1851. 2:35, plate 5: figure 20
 noemi, Cypricardia Folin. 1867a:24, plate 4: figures I, 2
@@ -36447,7 +36447,7 @@ physoides, Odostomia Gould, 1861a, 7:405
 phytelephas, Natica Reeve, 1855 [in 1851-1870], 9(Natica): plate 11:
 species 42
 phytostylus, Helix Benson, 1864c, 13:492
-pia. Mitra Dohrn, 1860:366
+pia, Mitra Dohrn, 1860:366
 piasaensis, Pleurotomaria Hall, 1858, 4:22
 piatoni, Turbo Dumortier, 1867 [in 1864-1869], 2:189, plate 45:
 figures 13-15
@@ -42054,7 +42054,7 @@ sandwichiensis, Helicina Souleyet, 1852, 2:529, plate 30: figures 1-5
 sandwichiensis, Umax Souleyet, 1852, 2:497, plate 28: figures 8-11
 sanensis, Dreissenia Mayer, 1864 (in 1857-1869], 12:160
 sanfordii, Myacites C. Moore, 1870, 26:253, plate 13: figure 9
-sar.gamonensis. Nautilus (Discus) Meek and Worthen, 1860:470
+sargamonensis, Nautilus (Discus) Meek and Worthen, 1860:470
 sangarensis, Turbo Schrenck, 1862 (in 1862-1863], 4:409; 1867,
 2:363, plate 16: figures 6-11
 sangoae, Bulimus Tschudi, in Troschel, 1852, 18(1): 189, plate 6:
@@ -45215,7 +45215,7 @@ stewardsonii, Unio Lea, 1852a, 10:278, plate 23: figure 36
 stewardsoniana, Goniobasis Lea, 1862d:272; 1863e, 5:344, plate 38:
 figure 210
 stewarti, Pholadomya Tate, 1865, 21:41, plate 4: figure 2
-st.gallensis, Lutraria Mayer, in Studer, 1853b, 274:80
+stgallensis, Lutraria Mayer, in Studer, 1853b, 274:80
 sticticus, Conus A. Adams, 1853c: 117
 sticticus, Omphalius A. Adams, 1854a:39
 stictus, Bulimus (Rhachis) Martens, 1859h, 6:211, plate 2: figure 6
@@ -51294,7 +51294,7 @@ vauxiana, Goniobasis Lea, 1862d:265; 1863e, 5:309, plate 37: figure
 vauxiana, Nerinea Cotteau, 1854 [in 1853-1857]:23
 vavaosi, Natica Le Guillou, in Reeve, 1855 (in 1851-1870],
 9(Natica): plate 22: species 99
-v.-costata, Trigonia Lycett, 1850b, 6:422; 1857:168, plate 6: figure 5
+v-costata, Trigonia Lycett, 1850b, 6:422; 1857:168, plate 6: figure 5
 veatchii, Architectonica Gabb, 1864b, 1:116, plate 19: figure 71
 veatchii, Axinaea Gabb, 1864b, 1:197, plate 25: figure 183 a
 veatchii, Turritella Gabb, 1864b, 1:133, plate 20: figure 90
