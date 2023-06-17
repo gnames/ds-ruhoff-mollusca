@@ -13,12 +13,12 @@ f.each_with_index do |l, i|
   # pick names with ranges
   m = l.match(/^((\d{1,2}-)?[a-zäëö-]+,\s*[A-Z][a-z]+\s*[^0-9]+,\s*18\d\d-18\d\d)/)
   if  !m.nil?
-    w << [m[1], i + 1, l]
+    w << [m[1], i + 1, l.strip]
     # puts m[1]
   else
     m = l.match(/^((\d{1,2}-)?[a-zäëö-]+,\s*[A-Z][a-z]+\s*[^0-9]+,\s*18\d[\d?])/)
-    if !m.nil? && !m.nil?
-      w << [m[1], i + 1, l]
+    unless m.nil?
+      w << [m[1], i + 1, l.strip]
       # puts m[1]
     end
   end

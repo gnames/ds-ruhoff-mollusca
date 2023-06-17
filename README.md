@@ -9,3 +9,13 @@ The goal of this project is to extract scientific names from
 [x] Fix spaces in species names
 
 [x] Fix commas which were recognized as periods.
+
+[x] Fix years
+
+[x] Extract name part (06-names.csv first column is the place to fix errors)
+
+[x] Reformat name part
+
+[x] Reconcile names
+
+
