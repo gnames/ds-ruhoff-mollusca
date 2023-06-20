@@ -7,8 +7,9 @@ require 'csv'
 
 f = CSV.open('data/06-names.csv', headers: true)
 w = CSV.open('data/07-fmt-names.csv', 'w:utf-8')
-w << %w[Name OrigName Phylum LineNum Line]
+w << %w[Name OrigName Phylum DatasetIDs LineNum Line]
 phyl = 'Mollusca'
+source_ids = '1,2,3,8,11,12,105,132,158,163,170,172,179,181,183,194'
 
 f.each_with_index do |l, i|
   # pick names with ranges
@@ -16,7 +17,7 @@ f.each_with_index do |l, i|
   m = name.match(/^(([a-zäëö-]+),\s*([A-Z][a-z]+)\s+([a-zäëö-]+){0,2}\s+([^0-9]+)?,\s*(18\d\d-18\d\d))/)
   unless m.nil?
     fmt = "#{m[3]} #{m[4]} #{m[2]} #{m[5]}, #{m[6]}"
-    w << [fmt, name, phyl, i + 2, l['Line']]
+    w << [fmt, name, phyl, i + 2, source_ids, l['Line']]
     # puts name
     next
   end
@@ -24,7 +25,7 @@ f.each_with_index do |l, i|
   m = name.match(/^(([a-zäëö-]+),\s*([A-Z][a-z]+)\s+([^0-9]+)?,\s*(18\d\d-18\d\d))/)
   unless m.nil?
     fmt = "#{m[3]} #{m[2]} #{m[4]}, #{m[5]}"
-    w << [fmt, name, phyl, i + 2, l['Line']]
+    w << [fmt, name, phyl, i + 2, source_ids, l['Line']]
     # puts name
     next
   end
@@ -32,7 +33,7 @@ f.each_with_index do |l, i|
   m = name.match(/^(((\d{1,2}-)?[a-zäëö-]+),\s*([A-Z][a-z]+(\s+\([A-Z][a-z]+\.?\))?)\s+([a-zäëö-]{4,}){0,2}\s+([^0-9]+),\s*(18\d[\d?]))/)
   unless m.nil?
     fmt = "#{m[4]} #{m[6]} #{m[2]} #{m[7]}, #{m[8]}"
-    w << [fmt, name, phyl, i + 2, l['Line']]
+    w << [fmt, name, phyl, i + 2, source_ids, l['Line']]
     # puts name
     next
   end
@@ -40,7 +41,7 @@ f.each_with_index do |l, i|
   m = name.match(/^(((\d{1,2}-)?[a-zäëö-]+),\s*([A-Z][a-zö]+(\s+\([A-Z][a-z]+\.?\))?)\s+([^0-9]+),\s*(18\d[\d?]))/)
   unless m.nil?
     fmt = "#{m[4]} #{m[2]} #{m[6]}, #{m[7]}"
-    w << [fmt, name, phyl, i + 2, l['Line']]
+    w << [fmt, name, phyl, i + 2, source_ids, l['Line']]
     # puts name
     next
   end
