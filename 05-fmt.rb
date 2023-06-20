@@ -7,7 +7,7 @@ require 'csv'
 
 f = CSV.open('data/06-names.csv', headers: true)
 w = CSV.open('data/07-fmt-names.csv', 'w:utf-8')
-w << %w[Name OrigName Phylum DatasetIDs LineNum Line]
+w << %w[Name OrigName Phylum LineNum DatasetIDs Line]
 phyl = 'Mollusca'
 source_ids = '1,2,3,8,11,12,105,132,158,163,170,172,179,181,183,194'
 
