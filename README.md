@@ -22,4 +22,5 @@ The goal of this project is to extract scientific names from
 
 [x] [Fix spellings in names](data/07-fmt-names.csv)
 
+[ ] Run reconciliation using GNverifier
 
