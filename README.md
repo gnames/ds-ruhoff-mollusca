@@ -28,14 +28,12 @@ Cleaned up data [file](data/08-reconcile.csv)
 
 ## Stats
 
-------------------------------- ----------- ------------
-Names                           Number      Percentage
-------------------------------- ----------- ------------
-Total                           35487       100%
-All Matches                     26799       75.4%
-No Match                         8688       24.6%
-Canonical + Auth. Match         22311       62.8%
-Canonical Match                  3448       9.7%
-Fuzzy Canonical Match            1040       2.9%
-------------------------------- ----------- ------------
+| Names                           | Number      | Percentage
+| ------------------------------- | ----------- | ------------
+| Total                           | 35487       | 100%
+| All Matches                     | 26799       | 75.4%
+| No Match                        |  8688       | 24.6%
+| Canonical + Auth. Match         | 22311       | 62.8%
+| Canonical Match                 |  3448       | 9.7%
+| Fuzzy Canonical Match           |  1040       | 2.9%
 
