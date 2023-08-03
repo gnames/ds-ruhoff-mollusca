@@ -1,7 +1,7 @@
 # Scientific names exctracted from Ruhoff 1980
 
 The goal of this project is to extract scientific names from
-[Ruhoff 1980](https://repository.si.edu/handle/10088/5331)
+[Ruhoff 1980](https://doi.org/10.5479/si.00810282.294)
 
 
 ## Process
@@ -22,5 +22,5 @@ The goal of this project is to extract scientific names from
 
 [x] [Fix spellings in names](data/07-fmt-names.csv)
 
-[ ] Run reconciliation using GNverifier with OpenRefine
+[x] Run reconciliation using GNverifier with OpenRefine
 
