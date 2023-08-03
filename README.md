@@ -3,6 +3,8 @@
 The goal of this project is to extract scientific names from
 [Ruhoff 1980](https://doi.org/10.5479/si.00810282.294)
 
+Cleaned up data [file](data/08-reconcile.csv)
+
 
 ## Process
 
@@ -22,5 +24,5 @@ The goal of this project is to extract scientific names from
 
 [x] [Fix spellings in names](data/07-fmt-names.csv)
 
-[x] Run reconciliation using GNverifier with OpenRefine
+[x] [Run reconciliation using GNverifier with OpenRefine](data/08-reconcile.csv)
 
