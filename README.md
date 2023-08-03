@@ -8,23 +8,23 @@ Cleaned up data [file](data/08-reconcile.csv)
 
 ## Process
 
-[x] Make [OCR](data/01-ocr.txt)
+- [x] Make [OCR](data/01-ocr.txt)
 
-[x] [Concatenate lines](data/03-concat.txt)
+- [x] [Concatenate lines](data/03-concat.txt)
 
-[x] [Fix spaces](data/04-sortfix.txt) in species names
+- [x] [Fix spaces](data/04-sortfix.txt) in species names
 
-[x] [Fix commas](data/04-sortfix.txt) which were recognized as periods.
+- [x] [Fix commas](data/04-sortfix.txt) which were recognized as periods.
 
-[x] [Fix years](data/05-year.txt)
+- [x] [Fix years](data/05-year.txt)
 
-[x] [Extract name part](data/06-names.csv) (06-names.csv first column is the place to fix errors)
+- [x] [Extract name part](data/06-names.csv) (06-names.csv first column is the place to fix errors)
 
-[x] [Reformat name part](data/07-fmt-names.csv)
+- [x] [Reformat name part](data/07-fmt-names.csv)
 
-[x] [Fix spellings in names](data/07-fmt-names.csv)
+- [x] [Fix spellings in names](data/07-fmt-names.csv)
 
-[x] [Run reconciliation using GNverifier with OpenRefine](data/08-reconcile.csv)
+- [x] [Run reconciliation using GNverifier with OpenRefine](data/08-reconcile.csv)
 
 ## Stats
 
