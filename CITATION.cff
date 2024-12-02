@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Scientific names of Mollusca extracted from Ruhoff 1980."
+date-released: 2024-12-02
+version: v0.1.0
+authors:
+  - family-names: "Mozzherin"
+    given-names: "Dmitry"
+    orcid: "https://orcid.org/0000-0003-1593-1417"
+repository-code: "https://github.com/gnames/ds-ruhoff-mollusca"
+doi: 10.5281/zenodo.14262689
+license: MIT
