@@ -1,10 +1,11 @@
 # Scientific names extracted from Ruhoff 1980
 
+[![DOI](https://zenodo.org/badge/654533994.svg)](https://doi.org/10.5281/zenodo.14262688)
+
 The goal of this project is to extract scientific names from
 [Ruhoff 1980](https://doi.org/10.5479/si.00810282.294)
 
 Cleaned up data [file](data/08-reconcile.csv)
-
 
 ## Process
 
@@ -28,12 +29,11 @@ Cleaned up data [file](data/08-reconcile.csv)
 
 ## Stats
 
-| Names                           | Number      | Percentage
-| ------------------------------- | ----------- | ------------
-| Total                           | 35487       | 100%
-| All Matches                     | 26799       | 75.4%
-| No Match                        |  8688       | 24.6%
-| Canonical + Auth. Match         | 22311       | 62.8%
-| Canonical Match                 |  3448       | 9.7%
-| Fuzzy Canonical Match           |  1040       | 2.9%
-
+| Names                   | Number | Percentage |
+| ----------------------- | ------ | ---------- |
+| Total                   | 35487  | 100%       |
+| All Matches             | 26799  | 75.4%      |
+| No Match                | 8688   | 24.6%      |
+| Canonical + Auth. Match | 22311  | 62.8%      |
+| Canonical Match         | 3448   | 9.7%       |
+| Fuzzy Canonical Match   | 1040   | 2.9%       |
